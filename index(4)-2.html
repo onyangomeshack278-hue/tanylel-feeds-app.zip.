@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tanylel Feeds — animal feed manufacturer and supplier in Eldoret, Kenya. Nutrition You Can Trust.">
+  <title>Tanylel Feeds | Nutrition You Can Trust</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0d0f0e; --panel:#151917; --line:#292e2b; --muted:#a0a7a2; --green:#16b89b; --white:#f4f6f4; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--white); font-family:Arial,Helvetica,sans-serif; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(100% - 48px, 1060px); margin:auto; }
+    header { min-height:78px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
+    .brand { display:flex; align-items:center; gap:12px; font-weight:750; letter-spacing:-.4px; }
+
+    .brand-logo { width:68px; height:48px; object-fit:contain; border-radius:7px; background:#fff; }
+    .mark { width:38px; height:38px; border-radius:11px; background:var(--green); color:#06251f; display:grid; place-items:center; font-size:19px; font-weight:900; }
+    nav { display:flex; gap:25px; color:#c3cac5; font-size:14px; }
+    nav a:hover, .text-link:hover { color:var(--green); }
+    .hero { padding:90px 0 76px; max-width:800px; }
+    .eyebrow { color:var(--green); text-transform:uppercase; letter-spacing:2px; font-size:12px; font-weight:700; }
+    h1 { font-size:clamp(42px,8vw,76px); letter-spacing:-3px; line-height:1.02; margin:20px 0; }
+    .lead { font-size:clamp(19px,3vw,25px); line-height:1.5; color:#d2d8d4; max-width:680px; }
+    .location { color:var(--muted); margin-top:24px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:32px; }
+    .btn { display:inline-block; border:1px solid #3b4540; border-radius:999px; padding:14px 21px; font-weight:700; }
+    .btn.primary { background:var(--green); color:#06251f; border-color:var(--green); }
+    section { border-top:1px solid var(--line); padding:62px 0; }
+    .section-head { display:flex; justify-content:space-between; align-items:end; gap:20px; margin-bottom:28px; }
+    h2 { font-size:clamp(28px,5vw,40px); letter-spacing:-1.2px; margin:0; }
+    .sub { color:var(--muted); margin:10px 0 0; line-height:1.6; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .item { border:1px solid var(--line); border-radius:15px; padding:23px; background:var(--panel); min-height:130px; }
+    .num { color:var(--green); font-size:12px; letter-spacing:1px; }
+    .item h3 { margin:15px 0 7px; font-size:20px; }
+    .item p { color:var(--muted); margin:0; line-height:1.5; font-size:14px; }
+
+    .gallery-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:16px; }
+    .gallery-photo { margin:0; overflow:hidden; border:1px solid var(--line); border-radius:15px; background:var(--panel); }
+    .gallery-photo img { display:block; width:100%; height:auto; max-height:620px; object-fit:cover; }
+    .gallery-photo figcaption { display:flex; justify-content:space-between; gap:12px; padding:15px 17px; }
+    .gallery-photo figcaption span { color:var(--muted); font-size:13px; }
+    .about { max-width:720px; font-size:18px; line-height:1.8; color:#d0d6d2; }
+    .contact-list { border-top:1px solid var(--line); }
+    .contact-row { display:flex; justify-content:space-between; gap:18px; padding:21px 0; border-bottom:1px solid var(--line); }
+    .contact-row span:first-child { color:var(--muted); }
+    .contact-row a { overflow-wrap:anywhere; text-align:right; }
+    footer { border-top:1px solid var(--line); padding:28px 0 40px; color:var(--muted); display:flex; justify-content:space-between; gap:15px; font-size:13px; }
+    @media (max-width:650px) {
+      .wrap { width:min(100% - 36px, 1060px); }
+      header { align-items:flex-start; padding:20px 0; flex-direction:column; gap:17px; }
+      nav { width:100%; gap:17px; flex-wrap:wrap; font-size:13px; }
+      .hero { padding:66px 0 58px; }
+      h1 { letter-spacing:-2px; }
+      .grid { grid-template-columns:1fr; }
+      .section-head { align-items:flex-start; flex-direction:column; }
+      .contact-row { flex-direction:column; gap:7px; }
+      .contact-row a { text-align:left; }
+      footer { flex-direction:column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="#home"><img class="brand-logo" src="images/tanylel-company-logo.jpg" alt="Tanylel Feeds Limited company logo"><span>TANYLEL FEEDS</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a><a href="#products">Products</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <div class="hero">
+        <div class="eyebrow">Animal feed manufacturer & supplier</div>
+        <h1>Nutrition You Can Trust.</h1>
+        <p class="lead">Quality animal feed solutions for farmers and businesses. Supporting healthier livestock and better farming through dependable feed products.</p>
+        <p class="location">Sirikwa Road, Eldoret, Kenya</p>
+        <div class="actions">
+          <a class="btn primary" href="tel:0757854400">Call 0757854400</a>
+          <a class="btn" href="mailto:tanylelfeedsltd@gmail.com">Email us</a>
+        </div>
+      </div>
+
+      <section id="about">
+        <div class="section-head"><div><div class="eyebrow">01 / About us</div><h2>Feeds for better farming.</h2></div></div>
+        <p class="about">Tanylel Feeds is an animal feed manufacturer and supplier based on Sirikwa Road in Eldoret, Kenya. We provide feed solutions for different livestock needs, with a focus on quality, reliability and service to farmers.</p>
+      </section>
+
+      <section id="products">
+        <div class="section-head">
+          <div><div class="eyebrow">02 / What we offer</div><h2>Our products</h2><p class="sub">Feed categories for a range of livestock and production needs.</p></div>
+        </div>
+        <div class="grid">
+          <article class="item"><div class="num">01</div><h3>Poultry Feeds</h3><p>Feed solutions for poultry farming.</p></article>
+          <article class="item"><div class="num">02</div><h3>Dairy Feeds & Meal</h3><p>Feed options for dairy animals.</p></article>
+          <article class="item"><div class="num">03</div><h3>Cattle Feeds</h3><p>Feed products for cattle production.</p></article>
+          <article class="item"><div class="num">04</div><h3>Pig Feeds</h3><p>Feed solutions for pig farming.</p></article>
+          <article class="item"><div class="num">05</div><h3>Animal Feed Raw Materials</h3><p>Raw materials for animal feed production.</p></article>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <div class="section-head"><div><div class="eyebrow">03 / Gallery</div><h2>Inside Tanylel Feeds</h2><p class="sub">Product and facility photos can be added here.</p></div></div>
+        <div class="gallery-grid">
+          <figure class="gallery-photo">
+            <img src="images/dairy-meal-bag.jpg" alt="Tanylel Feeds Limited Dairy Meal bag">
+            <figcaption><strong>Dairy Meal</strong><span>Tanylel Feeds Limited</span></figcaption>
+          </figure>
+          <figure class="gallery-photo">
+            <img src="images/dairy-meal-bag-2.jpg" alt="Second view of Tanylel Feeds Limited Dairy Meal bag">
+            <figcaption><strong>Dairy Meal — 50 kg</strong><span>Tanylel Feeds Limited</span></figcaption>
+          </figure>
+        </div>
+
+          <figure class="gallery-photo">
+            <img src="images/chick-mash-bag.jpg" alt="Tanylel Feeds Limited Chick Mash feed bag">
+            <figcaption><strong>Chick Mash</strong><span>Tanylel Feeds Limited</span></figcaption>
+          </figure>
+
+          <figure class="gallery-photo">
+            <img src="images/layers-mash-bag.jpg" alt="Tanylel Feeds Limited Layers Mash feed bag">
+            <figcaption><strong>Layers Mash</strong><span>Tanylel Feeds Limited</span></figcaption>
+          </figure>
+        <p class="sub">Contact us for product information and enquiries.</p>
+      </section>
+
+      <section id="contact">
+        <div class="section-head"><div><div class="eyebrow">04 / Get in touch</div><h2>Let's talk feeds.</h2><p class="sub">Contact Tanylel Feeds for enquiries and product information.</p></div></div>
+        <div class="contact-list">
+          <div class="contact-row"><span>Phone</span><a href="tel:0757854400">0757854400</a></div>
+          <div class="contact-row"><span>Email</span><a href="mailto:tanylelfeedsltd@gmail.com">tanylelfeedsltd@gmail.com</a></div>
+          <div class="contact-row"><span>Location</span><span>Sirikwa Road, Eldoret, Kenya</span></div>
+          <div class="contact-row"><span>Postal address</span><span>P.O. Box 10749</span></div>
+        </div>
+        <div class="actions"><a class="btn primary" href="https://wa.me/254757854400">Chat on WhatsApp</a><a class="btn" href="mailto:tanylelfeedsltd@gmail.com">Send an email</a></div>
+      </section>
+    </main>
+
+    <footer><span>© <span id="year"></span> Tanylel Feeds</span><span>Nutrition You Can Trust</span></footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
